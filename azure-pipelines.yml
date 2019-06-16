@@ -17,10 +17,12 @@ variables:
   appName: harapp
 
 steps:
+
 - task: ArchiveFiles@2
   inputs:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: false
+
 - task: PublishBuildArtifacts@1
   displayName: Publish Artifact
   inputs:
