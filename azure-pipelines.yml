@@ -5,11 +5,12 @@
 
 trigger:
 - master
+- gh-pages
 
 pool:
   vmImage: 'ubuntu-latest'
 
-varianles:
+variables:
   serviceConnectionToAzure: exit
   appName: harapp
 
