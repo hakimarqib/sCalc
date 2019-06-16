@@ -9,6 +9,8 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+
+
 variables:
   phpVersion: 7.2
   serviceConnectionToAzure: exit
